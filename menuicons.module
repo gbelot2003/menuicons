@@ -1,12 +1,22 @@
 <?php
+
+/**
+ * Implement hook_init
+ */
+
+function menuicons_init(){
+  $path = drupal_get_path('module', 'menuicons') . '/icomoon.css';
+  drupal_add_css($path);
+}
+
 /**
  * Implementation of hook_form_FROM_ID_alter()
  * Description changed, added nolink and separator as path types.
  */
 function menuicons_form_menu_edit_item_alter(&$form, &$form_state) {
 
-  $path = libraries_get_path('icomoon') . '/icomoon.css';
-  dpm($path);
+  $path = drupal_get_path('module', 'menuicons') . '/icomoon.css';
+
   $pattern = '/\.(fa-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/';
   $subject = file_get_contents($path);
   
