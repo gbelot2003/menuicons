@@ -1,7 +1,9 @@
 name = Menu Icon
 description = Module add icons to menu items.
-package = Custom Private Modules
-version = 7.x-1.0
 core = 7.x 
+version = 7.x-1.0
+package = Custom Private Modules
+dependencies[] = libraries
+
 
 

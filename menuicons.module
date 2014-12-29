@@ -5,8 +5,10 @@
  */
 function menuicons_form_menu_edit_item_alter(&$form, &$form_state) {
 
+  $path = libraries_get_path('icomoon') . '/icomoon.css';
+  dpm($path);
   $pattern = '/\.(fa-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/';
-  $subject = file_get_contents('https://s3-sa-east-1.amazonaws.com/canaturh/font/style.css');
+  $subject = file_get_contents($path);
   
   preg_match_all($pattern, $subject, $matches, PREG_SET_ORDER);
 
