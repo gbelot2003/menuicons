@@ -15,7 +15,8 @@ function menuicons_init(){
  */
 function menuicons_form_menu_edit_item_alter(&$form, &$form_state) {
 
-  $path = drupal_get_path('module', 'menuicons') . '/icomoon.css';
+  global $base_url; 
+  $path = $base_url . '/' . drupal_get_path('module', 'menuicons') . '/icomoon.css';
 
   $pattern = '/\.(fa-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/';
   $subject = file_get_contents($path);
