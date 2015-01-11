@@ -1,3 +1,39 @@
+.fa-bar {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe612;');
+}
+.fa-air {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe613;');
+}
+.fa-parking {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe614;');
+}
+.fa-store {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe616;');
+}
+.fa-meeting {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe617;');
+}
+.fa-laundry {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe618;');
+}
+.fa-room {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe619;');
+}
+.fa-terrace {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe61a;');
+}
+.fa-pool {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe61b;');
+}
+.fa-boat {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe61c;');
+}
+.fa-wifi {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe61d;');
+}
+.fa-culturas {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe615;');
+}
 .fa-arqueologia {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
 }
@@ -13,7 +49,7 @@
 .fa-conquien {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
 }
-.fa-culturasv {
+.fa-cultura {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe605;');
 }
 .fa-destinos {
@@ -52,22 +88,28 @@
 .fa-transporte {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe611;');
 }
-.fa-cultura {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
-}
-.fa-file-text2 {
+.fa-file-text {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe926;');
 }
-.fa-location2 {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe948;');
+.fa-compass2 {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94a;');
+}
+.fa-calendar {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe953;');
 }
 .fa-user {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe971;');
 }
+.fa-quotes-left {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe977;');
+}
+.fa-quotes-right {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe978;');
+}
 .fa-cogs {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe995;');
 }
-.fa-list2 {
+.fa-list {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9bb;');
 }
 .fa-menu {
@@ -82,28 +124,28 @@
 .fa-checkmark2 {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea11;');
 }
-.fa-arrow-up-left2 {
+.fa-arrow-up-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea39;');
 }
-.fa-arrow-up2 {
+.fa-arrow-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3a;');
 }
-.fa-arrow-up-right2 {
+.fa-arrow-up-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3b;');
 }
-.fa-arrow-right2 {
+.fa-arrow-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3c;');
 }
-.fa-arrow-down-right2 {
+.fa-arrow-down-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3d;');
 }
-.fa-arrow-down2 {
+.fa-arrow-down {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3e;');
 }
-.fa-arrow-down-left2 {
+.fa-arrow-down-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3f;');
 }
-.fa-arrow-left2 {
+.fa-arrow-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea40;');
 }
 .fa-circle-up {
@@ -118,7 +160,7 @@
 .fa-circle-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea44;');
 }
-.fa-google-plus3 {
+.fa-google-plus {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea8a;');
 }
 .fa-facebook2 {
@@ -130,7 +172,7 @@
 .fa-twitter {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea91;');
 }
-.fa-feed2 {
+.fa-feed {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea94;');
 }
 .fa-youtube {

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-rex7r7');
-	src:url('fonts/icomoon.eot?#iefix-rex7r7') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-rex7r7') format('woff'),
-		url('fonts/icomoon.ttf?-rex7r7') format('truetype'),
-		url('fonts/icomoon.svg?-rex7r7#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?wipwv3');
+	src:url('fonts/icomoon.eot?#iefixwipwv3') format('embedded-opentype'),
+		url('fonts/icomoon.woff?wipwv3') format('woff'),
+		url('fonts/icomoon.ttf?wipwv3') format('truetype'),
+		url('fonts/icomoon.svg?wipwv3#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,48 +23,89 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.fa-arqueologia:before {
-	content: "\e600";
+.fa-solyplaya:before, .fa-sol:before, .fa-sun:before {
+	content: "\e60f";
 }
-.fa-archeology:before {
+
+.fa-air:before, .fa-aire:before {
+	content: "\e613";
+}
+
+.fa-parking:before, .fa-estacionamiento:before {
+	content: "\e614";
+}
+
+
+.fa-store:before, .fa-tienda:before  {
+	content: "\e616";
+}
+
+.fa-cultura:before, .fa-culture:before  {
+	content: "\e605";
+}
+
+.fa-meeting:before, .fa-salon:before  {
+	content: "\e617";
+}
+
+.fa-laundry:before, .fa-lavanderia:before  {
+	content: "\e618";
+}
+
+.fa-room:before, .fa-servicio:before  {
+	content: "\e619";
+}
+
+.fa-terrace:before, .fa-vista:before {
+	content: "\e61a";
+}
+
+.fa-pool:before, .fa-picina:before  {
+	content: "\e61b";
+}
+
+.fa-boat:before, .fa-paseos:before  {
+	content: "\e61c";
+}
+
+.fa-gastronomia:before, .fa-gastronomy:before  {
+	content: "\e608";
+}
+
+.fa-culturas:before, .fa-living:before {
+	content: "\e615";
+}
+
+.fa-arqueologia:before, .fa-archeology:before {
 	content: "\e600";
 }
 
-.fa-aventura:before {
+.fa-naturaleza:before, .fa-nature:before {
+	content: "\e60d";
+}
+
+.fa-aventura:before, .fa-adventure:before  {
 	content: "\e601";
 }
 
-.fa-adventure:before {
-	content: "\e601";
-}
-
-.fa-aviturismo:before {
+.fa-aviturismo:before, .fa-birding:before {
 	content: "\e602";
 }
 
-.fa-birding:before {
-	content: "\e602";
-}
-
-.fa-buceo:before {
+.fa-buceo:before, .fa-diving:before {
 	content: "\e603";
 }
 
-.fa-diving:before {
-	content: "\e603";
+.fa-bar:before {
+	content: "\e612";
 }
 
+.fa-wifi:before {
+	content: "\e61d";
+}
 
 .fa-conquien:before {
 	content: "\e604";
-}
-
-.fa-culturas:before { /*culturas vivas*/
-	content: "\e605";
-}
-
-.fa-living:before {
-	content: "\e605";
 }
 
 .fa-destinos:before {
@@ -73,14 +114,6 @@
 
 .fa-explora:before {
 	content: "\e607";
-}
-
-.fa-gastronomia:before {
-	content: "\e608";
-}
-
-.fa-gastronomy:before {
-	content: "\e608";
 }
 
 .fa-hoteles:before {
@@ -99,28 +132,8 @@
 	content: "\e60c";
 }
 
-.fa-naturaleza:before {
-	content: "\e60d";
-}
-
-.fa-nature:before {
-	content: "\e60d";
-}
-
 .fa-restaurantes:before {
 	content: "\e60e";
-}
-
-.fa-solyplaya:before {
-	content: "\e60f";
-}
-
-.fa-sol:before {
-	content: "\e60f";
-}
-
-.fa-sun:before {
-	content: "\e60f";
 }
 
 .fa-tours:before {
@@ -131,31 +144,35 @@
 	content: "\e611";
 }
 
-.fa-cultura:before {
-	content: "\e921";
-}
-
-.fa-culture:before {
-	content: "\e921";
-}
-
-.fa-file-text2:before {
+.fa-file-text:before {
 	content: "\e926";
 }
 
-.fa-location2:before {
-	content: "\e948";
+.fa-compass2:before {
+	content: "\e94a";
+}
+
+.fa-calendar:before {
+	content: "\e953";
 }
 
 .fa-user:before {
 	content: "\e971";
 }
 
+.fa-quotes-left:before {
+	content: "\e977";
+}
+
+.fa-quotes-right:before {
+	content: "\e978";
+}
+
 .fa-cogs:before {
 	content: "\e995";
 }
 
-.fa-list2:before {
+.fa-list:before {
 	content: "\e9bb";
 }
 
@@ -175,35 +192,35 @@
 	content: "\ea11";
 }
 
-.fa-arrow-up-left2:before {
+.fa-arrow-up-left:before {
 	content: "\ea39";
 }
 
-.fa-arrow-up2:before {
+.fa-arrow-up:before {
 	content: "\ea3a";
 }
 
-.fa-arrow-up-right2:before {
+.fa-arrow-up-right:before {
 	content: "\ea3b";
 }
 
-.fa-arrow-right2:before {
+.fa-arrow-right:before {
 	content: "\ea3c";
 }
 
-.fa-arrow-down-right2:before {
+.fa-arrow-down-right:before {
 	content: "\ea3d";
 }
 
-.fa-arrow-down2:before {
+.fa-arrow-down:before {
 	content: "\ea3e";
 }
 
-.fa-arrow-down-left2:before {
+.fa-arrow-down-left:before {
 	content: "\ea3f";
 }
 
-.fa-arrow-left2:before {
+.fa-arrow-left:before {
 	content: "\ea40";
 }
 
@@ -223,11 +240,11 @@
 	content: "\ea44";
 }
 
-.fa-google-plus3:before {
+.fa-google-plus:before {
 	content: "\ea8a";
 }
 
-.fa-facebook2:before {
+.fa-facebook:before {
 	content: "\ea8d";
 }
 
@@ -239,7 +256,7 @@
 	content: "\ea91";
 }
 
-.fa-feed2:before {
+.fa-feed:before {
 	content: "\ea94";
 }
 
